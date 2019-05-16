@@ -62,6 +62,7 @@
             this.txtEdit.Name = "txtEdit";
             this.txtEdit.Size = new System.Drawing.Size(307, 21);
             this.txtEdit.TabIndex = 3;
+            this.txtEdit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtEdit_KeyPress);
             // 
             // Form1
             // 
